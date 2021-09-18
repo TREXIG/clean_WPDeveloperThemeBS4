@@ -7,6 +7,7 @@
  */
 
 get_header(); // Подключаем хедер ?>
+<section class="section-main">
   	<div class="container">
 		<div class="row">
 			<h1><?php printf( __( 'Результаты поиска: %s', 'twentyten' ), '' . get_search_query() . '' ); // Динамический заголовок поиска?></h1>
@@ -32,4 +33,5 @@ get_header(); // Подключаем хедер ?>
 			?>
 		</div>
 	</div>
+</section>
 <?php get_footer(); // Подключаем футер ?>

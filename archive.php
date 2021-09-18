@@ -7,6 +7,7 @@
  */
 
 get_header(); // Подключаем хедер ?>
+<section class="section-main">
   	<div class="container">
 		<div class="row">
 			<h1><?php // Генерация заголовка в зависимости от архива
@@ -43,4 +44,5 @@ get_header(); // Подключаем хедер ?>
 			?>
 		</div>
 	</div>
+</section>
 <?php get_footer(); // Подключаем футер ?>

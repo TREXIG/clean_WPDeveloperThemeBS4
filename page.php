@@ -6,6 +6,7 @@
  * @subpackage clean
  */
 get_header(); // Подключаем хедер?>
+<section class="section-main">
   	<div class="container">
 		<div class="row">
 			<?php if ( have_posts() ) while ( have_posts() ) : the_post(); // Начало цикла ?>
@@ -14,4 +15,5 @@ get_header(); // Подключаем хедер?>
 			<?php endwhile; // Конец цикла ?>   
 		</div>
 	</div>
+</section>
 <?php get_footer(); // Подключаем футер ?>

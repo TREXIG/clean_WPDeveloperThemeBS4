@@ -6,9 +6,11 @@
  * @subpackage clean
  */
 get_header(); // Подключаем хедер ?>
+<section class="section-main">
   	<div class="container">
 		<div class="row">
 			<h1>Ничего не найдено</h1>
 		</div>
 	</div>
+</section>
 <?php get_footer(); // Подключаем футер ?>

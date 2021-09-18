@@ -7,6 +7,7 @@
  */
 
 get_header(); // Подключаем хедер ?>
+<section class="section-main">
   	<div class="container">
 		<div class="row">
 			<h1><?php printf( __( 'Посты по тэгу: %s', 'twentytwelve' ),  single_tag_title( '', false )  ); // Динамический заголовок ?></h1>
@@ -32,4 +33,5 @@ get_header(); // Подключаем хедер ?>
 			?>
 		</div>
 	</div>
+</section>
 <?php get_footer(); // Подключаем футер ?>
